@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit;
 
 public class Main {
 
-    private static final String LOCK_PATH = "/system-a/lock";
+    private static final String LOCK_PATH = "/lock";
     private static final int MAX_THREADS = 10;
 
     public static void main(String[] args) throws Exception {
