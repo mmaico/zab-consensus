@@ -3,6 +3,7 @@
 #### Distributed lock example implemented with Zookeeper  
 
 ![Arquitecture](src/main/resources/zookeer-distributed-lock.png) 
+
  The goal is to get the data from the score database and import it to MongoDB. With multiple machines competing for the same
 data, the lock with Zookeeper will allow only one machine at a time to execute the import process. The next machine will continue
 where the last one left off until finished the import.
